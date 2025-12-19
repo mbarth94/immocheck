@@ -30,7 +30,7 @@ Update the file after completing each sub-task, not just after completing an ent
 
 - [ ] 0.0 Create feature branch
 
-- [ ] 1.0 Align PRD scope, assumptions, and architecture baseline
+- [x] 1.0 Align PRD scope, assumptions, and architecture baseline
 - [ ] 2.0 Implement deal management + local-first persistence (create/save/duplicate/archive)
 - [ ] 3.0 Build calculation engine (purchase/rent/opex/financing/tax/value) + tests
 - [ ] 4.0 Build core UI (Deal-Liste → Cockpit → Szenarien → Audit/Trace)

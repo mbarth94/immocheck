@@ -139,6 +139,8 @@ Zusätzlich enthält das Produkt ein **Freemium-Abo-Modell** mit Limits über �
 - Golden-Master Tests: eine Referenzkalkulation (z. B. aus Excel) als Fixture, KPI-Vergleich mit Toleranzen.
 - Billing: z. B. Stripe (Web) + später Mobile entitlements (IAP/RevenueCat).
 - Local-first Storage (IndexedDB/SQLite), später optional Cloud Sync.
+- **Projektion**: Jährliche Betrachtung, Standard-Horizont: 10 Jahre.
+- **Rundungsregeln**: Beträge (Währungen) werden auf 2 Dezimalstellen gerundet. KPIs (Renditen, etc.) werden vorläufig auf 2 Dezimalstellen gerundet.
 
 ## Success Metrics
 
@@ -153,7 +155,6 @@ Zusätzlich enthält das Produkt ein **Freemium-Abo-Modell** mit Limits über �
 1. Exakte Planpreise und Deal-Limits (Pro: 50 oder 100?).
 2. Free-Export-Gate: Watermark oder Quota (1 Report/Monat) oder beides?
 3. Trial: 7 oder 14 Tage Pro?
-4. Projection horizon: 10 vs. 15/20 Jahre.
-5. Rounding rules (Cent/Euro) verbindlich für Reports.
-6. Marktdaten: Quellen/Lizenzen und Region-Mapping (PLZ/City).
-7. Account/Login: Pflicht in V1 oder device-bound bis später Sync?
+4. **Entschieden**: Projection horizon (10 Jahre Default) und Rounding rules (2 Dezimalstellen).
+5. Marktdaten: Quellen/Lizenzen und Region-Mapping (PLZ/City).
+6. Account/Login: Pflicht in V1 oder device-bound bis später Sync?
