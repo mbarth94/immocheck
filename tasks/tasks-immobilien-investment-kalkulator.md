@@ -33,6 +33,9 @@ Update the file after completing each sub-task, not just after completing an ent
 - [x] 1.0 Align PRD scope, assumptions, and architecture baseline
 - [x] 2.0 Implement deal management + local-first persistence (create/save/duplicate/archive)
 - [ ] 3.0 Build calculation engine (purchase/rent/opex/financing/tax/value) + tests
+  - [x] Monorepo setup & Calc-Engine Skeleton
+  - [ ] Implementation of actual financial formulas
+  - [ ] Comprehensive test suite
 - [ ] 4.0 Build core UI (Deal-Liste → Cockpit → Szenarien → Audit/Trace)
 - [ ] 5.0 Implement reports & exports (Bankgespräch PDF, Detail PDF, CSV/XLSX)
 - [ ] 6.0 Implement monetization (Free/Starter/Pro entitlements, limits, upgrade flow, billing)

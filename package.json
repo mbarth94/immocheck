@@ -1,0 +1,13 @@
+{
+  "name": "immocheck-monorepo",
+  "private": true,
+  "workspaces": [
+    "app",
+    "packages/*"
+  ],
+  "scripts": {
+    "test": "npm test -w @immocheck/calc",
+    "lint": "echo \"No lint script defined for root yet\""
+  }
+}
+

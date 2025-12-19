@@ -10,11 +10,11 @@ Diese Dokumentation beschreibt die grundlegende Architektur der Anwendung "Immob
 
 ## Projektstruktur
 
-Das Projekt ist in folgende Bereiche unterteilt:
+Das Projekt ist als **Monorepo** mit `npm workspaces` strukturiert:
 
 - `/app`: Die Hauptanwendung (Expo / React Native).
+- `/packages/calc`: (@immocheck/calc) Die deterministische Berechnungs-Engine (Pure Functions).
 - `/tasks`: Dokumentation, PRD und Aufgabenlisten.
-- `/packages` (geplant): Geteilte Logik und Module.
 
 ## Geplante Module & Datenfluss
 
